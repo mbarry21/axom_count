@@ -1,11 +1,11 @@
 # Path to original images
-orig_images_path = "C:\\Users\\Micha\\PycharmProjects\\axom\\data\\orig"
+orig_images_path = "..\\data\\orig"
 
 # Path to save cropped images to
-cropped_path = "C:\\Users\\Micha\\PycharmProjects\\axom\\data\\cropped"
+cropped_path = "..\\data\\cropped"
 
 # Path to save resized images to
-resized_path = "C:\\Users\\Micha\\PycharmProjects\\axom\\data\\resized"
+resized_path = "..\\data\\resized"
 
 # Path to save greyscale images to
-greyscale_path = "C:\\Users\\Micha\\PycharmProjects\\axom\\data\\greyscale"
+greyscale_path = "..\\data\\greyscale"
