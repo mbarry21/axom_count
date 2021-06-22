@@ -7,10 +7,10 @@ history = pd.read_parquet("vile_counter_results.parquet")
 print(history.keys())
 
 # Display accuracy plot
-plt.plot(history['accuracy'])
-plt.plot(history['val_accuracy'])
-plt.title('model accuracy')
-plt.ylabel('accuracy')
+plt.plot(history['mean_squared_error'])
+plt.plot(history['val_mean_squared_error'])
+plt.title('model mean_squared_error')
+plt.ylabel('mean_squared_error')
 plt.xlabel('epoch')
 plt.legend(['train', 'validation'], loc='upper left')
 

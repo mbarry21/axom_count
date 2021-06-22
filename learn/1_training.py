@@ -75,6 +75,8 @@ valid_generator = datagen.flow_from_dataframe(dataframe=train_labels, directory=
 # Compile model
 model = create_model()
 opt = Adam()
+
+# TODO: add r^2 metric
 model.compile(loss="mean_squared_error", optimizer=opt, metrics=['accuracy', "mean_squared_error"])
 
 model.summary()
